@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	position: fixed;
+	overflow-y: scroll;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: "Eagle Lake";
+}
+
+#container {
+	width: 600px;
+	margin: 0 auto 0 auto;
+}
+
+#wrapper {
+	width: 500px;
+	height: 600px;
+	float: left;
+	clear: right;
+}
+
+#next, #prev {
+	float: left;
+	clear: right;
+	width: 50px;
+	height: 600px;
+}
+
+.button {
+	width: 50px;
+	margin-top: 233px;
+}
+
+.button:hover {
+	opacity: 0.25;
+	cursor: pointer;
+}
+
+/*.images.hide {
+	display: none;
+}*/
+
+.images {
+	display: none;
+	float: left;
+	clear: right;
+}
+
+#dot-wrapper {
+	clear: right;
+	width: 317px;
+	margin: 550px auto;
+}
+
+.dot {
+	display: inline-block;
+	background-color: green;
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	margin: 0 20px 0 20px;
+}
+
+.dot.active {
+	opacity: 0.25;
+}
+
+.dot:hover {
+	opacity: 0.25;
+	cursor: pointer;
+}
